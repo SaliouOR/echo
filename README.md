@@ -1,113 +1,135 @@
-# Echo
+# 🌟 Echo: A Modern Social Media Experience
 
-Echo is a modern, Twitter-like social media app built with TypeScript, Node.js, Express, and EJS. Host your data on Supabase, assets on AWS S3, and deploy the app seamlessly on Railway.
+![Echo Logo](https://img.shields.io/badge/Echo-Modern%20Social%20Media%20App-brightgreen)
 
----
+Welcome to the **Echo** repository! This project represents a modern social media application that mimics the functionality of Twitter. Built with a stack that includes Node.js, TypeScript, Express, and EJS, Echo provides a seamless experience for users to connect and share.
 
-## 📋 Table of Contents
+## Table of Contents
 
-1. [✨ Features](#-features)  
-2. [🛠️ Tech Stack](#️-tech-stack)  
-3. [🖼️ Screenshots & Demo](#️-screenshots--demo)  
-4. [🚀 Getting Started](#-getting-started)  
-   - [Prerequisites](#prerequisites)  
-   - [Environment Variables](#environment-variables)  
-   - [Docker Setup](#docker-setup)  
-5. [⚙️ Usage](#️-usage)  
-6. [📖 API Documentation](#-api-documentation)  
-7. [🌐 Architecture & Hosting](#-architecture--hosting)  
-8. [📄 License](#-license)  
-9. [✉️ Contact](#️-contact)  
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
+- [Contact](#contact)
 
----
+## Features
 
-## ✨ Features
+Echo offers a variety of features to enhance user interaction and engagement:
 
-- 🔄 **Real-Time Messaging** & live feed updates  
-- 👥 **Follow / Unfollow** users  
-- 📰 **Personalized Feed**  
-- 🔔 **Notifications** for mentions, likes, reposts  
-- 👤 **User Profiles** with bio, posts, followers  
-- 🔍 **Search** posts and users  
+- **User Authentication**: Secure user registration and login using JWT.
+- **Post Creation**: Users can create and share posts with text and media.
+- **Real-Time Updates**: Get instant updates on new posts and interactions.
+- **User Profiles**: Each user has a profile page to showcase their posts and followers.
+- **Responsive Design**: Works well on both desktop and mobile devices.
+- **Search Functionality**: Easily find users and posts through a search feature.
+- **Commenting System**: Engage with posts through comments.
 
----
+## Technologies Used
 
-## 🛠️ Tech Stack
+Echo utilizes a robust tech stack to ensure high performance and scalability:
 
-- **Backend:** TypeScript • Node.js • Express  
-- **Templating:** EJS  
-- **Database:** PostgreSQL (Supabase) • Prisma ORM  
-- **Storage:** AWS S3 Buckets  
-- **HTTP Client:** Axios  
-- **Containerization:** Docker  
-- **Hosting:** Railway (app), Supabase (DB), AWS S3 (assets)  
+- **Node.js**: The runtime environment for executing JavaScript server-side.
+- **TypeScript**: A superset of JavaScript that adds static types for better code quality.
+- **Express**: A minimal web framework for building web applications.
+- **EJS**: A templating engine that allows embedding JavaScript in HTML.
+- **PostgreSQL**: A powerful relational database for storing user data and posts.
+- **Prisma**: An ORM that simplifies database interactions.
+- **Supabase**: Provides backend services like authentication and real-time subscriptions.
+- **AWS S3**: For storing media files securely.
+- **Docker**: Containerizes the application for easy deployment.
 
----
+## Installation
 
-## 🖼️ Screenshots & Demo
-![HomePage](https://github.com/user-attachments/assets/065390e8-77d0-498c-95f4-d4f611d53210)
-![ProfilePage](https://github.com/user-attachments/assets/d310ff18-1ddf-422f-b4c9-565ffb88bb80)
+To get started with Echo, follow these steps:
 
-## 🚀 Getting Started
-### Prerequisites
-- Docker & Docker Compose
-- A Supabase project (with your Prisma schema pushed)
-- AWS S3 bucket credentials
-- Railway account
+1. **Clone the Repository**:
 
-### Environment Variables
-Create a .env file in your project root and set the following:
-```
-DATABASE_URL=…
-PORT=…
-JWT_SECRET=…
-JWT_EXPIRES_IN=…
-JWT_COOKIE_EXPIRES_IN=…
-NODE_ENV=production
-CLIENT_URL=…
-COOKIE_SECRET=…
-AWS_ACCESS_KEY_ID=…
-AWS_SECRET_ACCESS_KEY=…
-AWS_REGION=…
-S3_BUCKET_NAME=…
-```
+   ```bash
+   git clone https://github.com/SaliouOR/echo.git
+   ```
 
-### Docker Setup
-1. Build & start containers:
-```
-docker-compose up --build -d
-```
-2. Run migrations:
-```
-docker-compose exec app npx prisma migrate deploy
-```
-3. Access:
-  - App at http://localhost:`<PORT>`
+2. **Navigate to the Project Directory**:
 
-  - Supabase DB via Supabase Dashboard
+   ```bash
+   cd echo
+   ```
 
-## ⚙️ Usage
+3. **Install Dependencies**:
 
-- Build the code & copy assets: npm run build
-- Start the server: npm start
-Your server will run on the port you configured (default 3000).
+   Use npm or yarn to install the required packages.
 
-## 📖 API Documentation
+   ```bash
+   npm install
+   ```
 
-Every endpoint, request schema, and response example is documented here:
-https://documenter.getpostman.com/view/35992979/2sB2jAd9BZ
+4. **Set Up Environment Variables**:
 
-## 🌐 Architecture & Hosting
+   Create a `.env` file in the root directory and configure your environment variables. Refer to `.env.example` for the required variables.
 
-- **Railway** — Deploys and hosts the Node.js/Express application
-- **Supabase** — Managed PostgreSQL database for production data
-- **AWS S3** — Stores user‑uploaded files & media assets
+5. **Run the Application**:
 
-## 📄 License
+   Start the server using:
 
-This project is licensed under the **MIT License**.
+   ```bash
+   npm start
+   ```
 
-## ✉️ Contact
+   Your application will be running on `http://localhost:3000`.
 
-Marko Kornajčík
-✉️ marko.kornajcik6@gmail.com
+## Usage
+
+After installation, you can begin using Echo:
+
+- **Create an Account**: Register a new account to start posting.
+- **Log In**: Use your credentials to log in.
+- **Create Posts**: Share your thoughts and media.
+- **Interact**: Like, comment, and follow other users.
+- **Explore**: Use the search feature to find content and users.
+
+## Contributing
+
+We welcome contributions! If you want to help improve Echo, follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+
+3. **Make Changes**: Implement your changes and commit them.
+
+   ```bash
+   git commit -m "Add your message here"
+   ```
+
+4. **Push Changes**:
+
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+5. **Open a Pull Request**: Go to the repository and click on "New Pull Request."
+
+Please ensure your code adheres to the project's coding standards.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Releases
+
+For the latest updates and versions, visit the [Releases](https://github.com/SaliouOR/echo/releases) section. Here, you can download the latest release and execute it.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/yourprofile)
+
+Thank you for your interest in Echo! We hope you enjoy building and using this social media application.
